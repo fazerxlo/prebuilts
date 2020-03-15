@@ -8,7 +8,7 @@ cd $HOME
 
 # clone git repo
 if [ ! -d openauto ]; then
-    git clone -b crankshaft-ng https://github.com/opencardev/openauto.git
+    git clone -b development https://github.com/fazerxlo/openauto
 else
     cd openauto
     git reset --hard
