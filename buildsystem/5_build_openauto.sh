@@ -8,7 +8,7 @@ cd $HOME
 
 # clone git repo
 if [ ! -d openauto ]; then
-    git clone -b development https://github.com/fazerxlo/openauto
+	git clone -b youtube https://github.com/fazerxlo/openauto
 else
     cd openauto
     git reset --hard

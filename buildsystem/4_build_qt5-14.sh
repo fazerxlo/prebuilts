@@ -39,7 +39,6 @@ $HOME/qt514/src/qt-everywhere-src-5.14.1/configure -device linux-rasp-pi3-vc4-g+
 -nomake examples -no-compile-examples \
 -skip qtscript \
 -skip qtwayland \
--skip qtwebengine \
 -no-feature-geoservices_mapboxgl \
 -qt-pcre \
 -no-pch \
